@@ -6,4 +6,6 @@ public interface IAccountsService {
 
     // todo: add java docs comments
     void createAccount(CustomerDto customerDto);
+
+    CustomerDto fetchAccount(String mobileNumber);
 }
